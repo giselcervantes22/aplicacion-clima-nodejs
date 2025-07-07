@@ -1,1 +1,29 @@
-
+{
+  "name": "aplicacion-clima-nodejs",
+  "version": "1.0.0",
+  "description": "Una aplicación sencilla del clima usando Node.js, JSON y Axios",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["nodejs", "express", "axios", "json", "clima", "api", "weather"],
+  "author": "Tu nombre",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/aplicacion-clima-nodejs.git"
+  }
+}
